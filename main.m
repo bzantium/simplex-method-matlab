@@ -1,6 +1,6 @@
-t = importdata('./data/ex3_14.txt', ' ');
+t = importdata('./data/ex6_4.txt', ' ');
 epsilon = 1e-8;
-mode = 'SSR';
+mode = 'SRR';
 [nrow, ncol] = size(t);
 for i=2:nrow
     if t(i, 1) < 0

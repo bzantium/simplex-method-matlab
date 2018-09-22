@@ -55,7 +55,7 @@ while(~optimal)
             end
         end
         
-    elseif strcmp(mode, 'SSR')
+    elseif strcmp(mode, 'SRR')
         if sum((t(1,2:ncol) < -epsilon)) > 1
             k = randsample(find(t(1,2:ncol) < -epsilon),1) + 1;
         else
