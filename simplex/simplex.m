@@ -1,5 +1,4 @@
 function solSet = simplex(t, mode)
-%SIMPLEX 
 [nrow, ncol] = size(t);
 epsilon = 1e-8;
 basic_sequence = zeros(1, nrow-1);

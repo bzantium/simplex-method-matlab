@@ -1,6 +1,4 @@
 function output = isCanonical(t)
-%ISCANONICAL 이 함수의 요약 설명 위치
-%   자세한 설명 위치
 [nrow, ncol] = size(t);
 sequence = zeros(1, ncol - 1);
 k = sum(t(1,2:ncol) == 0);

@@ -1,5 +1,4 @@
 function cfset = getCanonical(t, mode)
-
 epsilon = 1e-8;
 [nrow, ncol] = size(t);
 index = zeros(1, nrow-1);
