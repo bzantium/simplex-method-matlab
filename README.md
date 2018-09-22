@@ -27,7 +27,7 @@ t = importdata('./data/XXX.txt', ' ');
 mode = 'SIR';
 ```
 
-### Data Format Example  
+- #### Data Format Example (in ex6_4.txt)
 ![equation](image/CodeCogsEqn.gif?raw=true)
 
 ```
