@@ -26,3 +26,7 @@ t = importdata('./data/XXX.txt', ' ');
 ```
 mode = 'SIR';
 ```
+
+### Data Format (.txt)
+
+![equation](./image/CodeCogsEgn.gif)
