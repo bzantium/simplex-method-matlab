@@ -28,7 +28,7 @@ mode = 'SIR';
 ```
 
 - #### Data Format Example (in ex6_4.txt)
-&nbsp;&nbsp;&nbsp; ![equation](image/CodeCogsEqn.gif?raw=true)
+&nbsp;&nbsp; ![equation](image/CodeCogsEqn.gif?raw=true)
 
 ```
 -5 -6 -1 -4 -5 0 0 0
