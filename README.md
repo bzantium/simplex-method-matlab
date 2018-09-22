@@ -29,4 +29,5 @@ mode = 'SIR';
 
 ### Data Format (.txt)
 
-![equation](./image/CodeCogsEgn.gif)
+![equation](image/CodeCogsEqn.gif?raw=true)
+
