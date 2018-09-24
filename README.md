@@ -27,7 +27,7 @@ t = importdata('./data/XXX.txt', ' ');
 mode = 'SIR';
 ```
 
-- #### Data Format Example - data input must be stadard form
+- #### Data Format Example (stadard form)
 ![alt text](image/formula.png)
 ```
 -5 -6 -1 -4 -5 0 0 0
