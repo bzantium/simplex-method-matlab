@@ -2,7 +2,7 @@
 
 This is matlab implementation of simplex method only using basic functions to better understand logics.
 
-#### There are three modes to choose pivots
+#### There are three modes to choose pivots - to avoid degeneracy
 
 * Smallest Index Rule (SIR): Blend's rule
 
