@@ -28,7 +28,7 @@ mode = 'SIR';
 ```
 
 - #### Data Format Example (in ex6_4.txt)
-&nbsp;&nbsp; ![Alt text](image/equation.png?raw=true "Title")
+&nbsp;&nbsp; ![Alt text](image/formula.png?raw=true "Title")
 
 ```
 -5 -6 -1 -4 -5 0 0 0
