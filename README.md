@@ -1,6 +1,7 @@
 # Simplex Method Matlab Implementation
 
-This is matlab implementation of simplex method only using basic functions to better understand logics.
+This is matlab implementation of simplex method only using basic functions for better understanding of logics.
+Two phase simplex method is used for non-canonical form problems.
 
 #### There are three modes for choosing pivots - to avoid degeneracy
 
