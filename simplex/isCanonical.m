@@ -1,4 +1,5 @@
 function output = isCanonical(t)
+% Check canonical form
 [nrow, ncol] = size(t);
 sequence = zeros(1, ncol - 1);
 k = sum(t(1,2:ncol) == 0);

@@ -2,7 +2,7 @@ t = importdata('./data/ex6_4.txt', ' ');
 epsilon = 1e-8;
 
 % Pivot selection avoiding degeneration
-mode = 'SRR';
+mode = 'SSR';
 [nrow, ncol] = size(t);
 for i=2:nrow
     if t(i, 1) < 0

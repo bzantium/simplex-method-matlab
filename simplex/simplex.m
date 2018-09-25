@@ -2,10 +2,11 @@ function solSet = simplex(t, mode)
 [nrow, ncol] = size(t);
 epsilon = 1e-8;
 basic_sequence = zeros(1, nrow-1);
-optsol = zeros(1, ncol-1);
+optSol = zeros(1, ncol-1);
 iteration = 0;
 k = 0;
 disp(t);
+
 % Get basic sequence
 for j=2:ncol
     if abs(t(1,j)) < epsilon
@@ -104,7 +105,8 @@ while(~optimal)
         solSet.state = 'unbounded';
         solSet.table = t;
         solSet.basic_sequence = basic_sequence;
-        solSet.optsol = optsol;
+        solSet.optSol = optSol;
+        solSet.objectiveValue = 0;
         solSet.iteration = iteration;
         return;
     end
@@ -130,9 +132,9 @@ for j=2:ncol
     if abs(t(1,j)) < epsilon
        temp = isOnehot(t, j);
         if temp
-            optsol(j-1) = t(temp+1,1);
-            if abs(round(optsol(j-1)) - optsol(j-1)) < epsilon
-                optsol(j-1) = round(optsol(j-1));
+            optSol(j-1) = t(temp+1,1);
+            if abs(round(optSol(j-1)) - optSol(j-1)) < epsilon
+                optSol(j-1) = round(optSol(j-1));
             end
         end
     end
@@ -141,7 +143,8 @@ end
 fprintf('\n');
 solSet.table = t;
 solSet.basic_sequence = basic_sequence;
-solSet.optsol = optsol;
+solSet.optSol = optSol;
+solSet.objectiveValue = getOptimalValue(t);
 solSet.iteration = iteration;
 solSet.state = 'optimal';
 end
