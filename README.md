@@ -27,8 +27,8 @@ t = importdata('./data/XXX.txt', ' ');
 mode = 'SIR';
 ```
 
-- #### Data Format Example (in ex6_4.txt)
-&nbsp;&nbsp; ![alt text](image/formula.png)
+- #### Data Format Example (stadard form)
+![alt text](image/formula.png)
 ```
 -5 -6 -1 -4 -5 0 0 0
 20 2 1 1 1 1 0 0
