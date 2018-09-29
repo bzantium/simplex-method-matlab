@@ -2,7 +2,7 @@
 
 This is matlab implementation of the two-phase simplex method for better understanding of the algorithm.
 
-#### There are three modes for choosing pivots - to avoid degeneracy
+### There are three modes for choosing pivots - to avoid degeneracy
 
 * Smallest Index Rule (SIR): Blend's rule
 
