@@ -13,7 +13,7 @@ This is matlab implementation of the two-phase simplex method for better underst
 ### Running the tests
 
 ```
-matlab -r main
+$ matlab -r main
 ```
 - #### You can change the file to import (in main.m file)
 
