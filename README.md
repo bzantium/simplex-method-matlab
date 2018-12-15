@@ -15,13 +15,13 @@ This is matlab implementation of the two-phase simplex method for better underst
 ```
 $ matlab -r main
 ```
-- #### You can change the file to import (in main.m file)
+- #### You can change the file to import (in main.m)
 
 ```
 t = importdata('./data/XXX.txt', ' ');
 ```
 
-- #### You can choose mode 'SIR' by (in main.m file)
+- #### You can choose mode 'SIR' by (in main.m)
 
 ```
 mode = 'SIR';
